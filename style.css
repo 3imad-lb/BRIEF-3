@@ -1,67 +1,98 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
 :root{
-    --primery : #030305 ;
-    --secondary : #F6F6F6 ;
-
+    --bleumarinblack : #030305 ;
+    --blancgris : #F6F6F6 ;
+    --linkedincolor : #007ab9;
+    --facebookcolor : #4460A0;
+    --callcolor : #009691;
+    --backgroundbleuopacity : rgba(79, 194, 225, 0.2);
+    --backgroundbleu :  rgba(79, 194, 225, 0.5);
+    --yellow : #F7D400;
+    --bleumarinfont : #0B3752;
+    --bleu : rgba(79, 194, 225);
+    --backgroundcontacteznous : #4FE189;
+    --submit : #42CE2B;
+    --placeholder : #C4C4C4;
+    --champobligatoire : #rgba(254, 31, 1, 0.75);
+    --copyright : #5C6368;
 }
-
-nav img {
+nav{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bleumarinblack);
 }
-
-.icon {
-    /* text-align: center; */
+img{
+    width: 80%;
+    height: auto;
+}
+.socialfont{
+    font-size: 40px;
+}
+.divsocialfont{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    font-size: 40px;
     padding: 20px 0px;
+    justify-content: center;
 }
-#Linkedin{
+header{
+    background-color: yellow;
+}
+.humbergermenu{
+   width: 50px;
+}
+.backgroundbleuopacity{
+
+}
+#maintenanceimage{
+
+}
+h1,p{
+    color: var(--bleumarinfont);
+}
+button{
+    border-radius: 15px;
+}
+#button1{
+
+}
+#button2{
     
-    color:#007ab9;
 }
-#Facebook{
-   
-    color:#4460a0;
-}
-#Call{
+#button3{
     
-    color:#009691;
+}
+#button4{
+    
+}
+input{
 
 }
+input::placeholder{
 
-.mobile-menu {
-    background-color: var(--primery);
-    text-align: center;
-    padding: 10px 0;
 }
+label{
 
-.mobile-menu img {
-    width: 50px;
 }
+textarea{
 
-.principal {
-    background-image: url('images/canvaasitech/photo principal.png');
-    background-size: cover;
-    padding: 50px;
 }
+#backgroundcontacteznous{
 
-.principal p {
-    margin: 10px 0;
 }
+h1footer{
 
-.button-container {
-    margin-top: 30px;   
 }
+#pfooter{
 
-.button {
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 5px 20px;
-    font-weight: bold;
+}
+#saisievotrequestion{
+
+}
+.fontfooter{
+
 }
