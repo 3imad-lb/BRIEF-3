@@ -16,23 +16,24 @@
     </nav>
     <header>
         <div class="divsocialfont">
-          <a class="socialfont" href=""><i class="fab fa-linkedin"></i></a>
-          <a class="socialfont" href=""><i class="fab fa-facebook-square"></i></a>
-          <a class="socialfont" href=""><i class="fas fa-phone-square-alt"></i></a>
+          <a class="socialfont" href=""><i style="color: var(--linkedincolor);" class="fab fa-linkedin"></i></a>
+          <a class="socialfont" href=""><i style="color: var(--facebookcolor);" class="fab fa-facebook-square"></i></a>
+          <a class="socialfont" href=""><i style="color: var(--callcolor);" class="fas fa-phone-square-alt"></i></a>
         </div>
         <div class="humbergermenu">
-          <img src="images/logos/Brown and Pink Minimal Icons Icon Set.png" alt="menu landing page ASI-TECH">
+          <a id="humbergermenubutton"><i  class="fas fa-bars"></i></a>
         </div>
     </header>
-    <section>
-        <div class="backgroundbleuopacity">
-        <h1>ASI-TECH ENTREPRISE D’installation et maintenance</h1>
-        <p>Vous appuyez sur l'installation et la maintenance, nous faisons le reste.</p>
+    <section id="photoprincipal">
+        <div class="divprincipal">
+        <h1 style="font-size: 18px;" class="backgroundbleuopacity">ASI-TECH ENTREPRISE D’installation et maintenance</h1>
+        <p style="font-style: italic;" class="backgroundbleuopacity">Vous appuyez sur l'installation et la maintenance, nous faisons le reste.</p>
         <button id="button1">DEMANDER UN SERVICE</button>
         </div>
     </section>
-    <section>
-        <table>
+    <section id="aproposdenous">
+        <div id="divtable">
+        <table class="table">
             <tr>
                 <th>
                  <img id="maintenanceimage" src="images/canvaasitech/maintenance photo.png" alt="maintenance">
@@ -44,7 +45,9 @@
                 </td>
             </tr>
         </table>
-        <table>
+        </div>
+        <div id="divtable">
+        <table class="table">
             <tr>
                 <th>
                     <p>ASI-TECH a été crée en 5 septembre 
@@ -69,10 +72,15 @@
                 </th>
             </tr>
         </table>
+    </div>
     </section>
-    <section>
-        <h1>NOS SERVICES</h1>
-        <video src="images/canvaasitech/"></video>
+    <section id="nosservices">
+        <h1 class="backgroundbleu">NOS SERVICES</h1>
+        <div class="maintenancevideo">
+            <video autoplay loop>
+                <source src="images/canvaasitech/maintenance Video.mp4" type="video/mp4">
+              </video>
+        </div>
         <div>
 
         </div>
@@ -86,14 +94,14 @@
 
         </div>
     </section>
-
+    <div id="divbtn2">
     <button id="button2">DEMANDER UN SERVICE</button>
-
+    </div>
     <section>
 
     </section>
     <section>
-        <h1>CONCESSIONNAIRES</h1>
+        <h1 class="backgroundbleu">CONCESSIONNAIRES</h1>
         <div>
             <div>
                 <img src="images/logos/logo rey del frio.png" alt="logo el rey d el frio">

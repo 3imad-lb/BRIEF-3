@@ -8,7 +8,7 @@
     --blancgris : #F6F6F6 ;
     --linkedincolor : #007ab9;
     --facebookcolor : #4460A0;
-    --callcolor : #009691;
+    --callcolor : #0bc057;
     --backgroundbleuopacity : rgba(79, 194, 225, 0.2);
     --backgroundbleu :  rgba(79, 194, 225, 0.5);
     --yellow : #F7D400;
@@ -36,32 +36,127 @@ img{
 .divsocialfont{
     display: flex;
     align-items: center;
-    padding: 20px 0px;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10px;
 }
 header{
-    background-color: yellow;
+    background-color: var(--blancgris);
 }
 .humbergermenu{
-   width: 50px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   background-color: var(--bleumarinblack);
+}
+#humbergermenubutton{
+    color:white;
+    font-size: 40px;
+    padding-top: 2px;
+}
+#photoprincipal{
+    background-image: url(images/canvaasitech/photo\ principal.png);
+    background-size: cover;
+    width: 100%;
+    height: 241px;
+    
+}
+.divprincipal{
+    padding: 50px;
+    padding-bottom: 10px;
 }
 .backgroundbleuopacity{
-
+  background-color:var(--backgroundbleuopacity);
 }
-#maintenanceimage{
-
+.backgroundbleuopacity h1,p,button{
+    margin-top: 10px;
 }
 h1,p{
     color: var(--bleumarinfont);
 }
 button{
     border-radius: 15px;
+    border: 3px solid;
+    padding: 5px 10px;
+   font-weight: 900;
+   font-size: 12px;
+   margin-top: 15px;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+a:hover{
+    cursor: pointer;
 }
 #button1{
-
+   padding: 5px 10px;
+   font-weight: 900;
+   font-size: 12px;
+   margin-top: 15px;
+   background: none;
+   background-color: var(--backgroundbleuopacity);
+}
+#button1:hover{
+    background-color: var(--bleu);
+}
+#aproposdenous{
+    margin-top: 30px;
+}
+#divtable{
+    display: flex;
+    justify-content: center;
+}
+table{
+    background-color: var(--blancgris);
+}   
+.table{
+    display: flex;
+    justify-content: center;
+    width: 84%;
+    margin-top: 30px ;
+}
+th img{
+    width: 100%;
+}
+td{
+    display: flex;
+    justify-content: center;
+    background-color: var(--blancgris);
+    padding: 20px;
+}
+table tr th p{
+    font-style: normal;
+    font-weight: normal;
+    text-align:left;
+    padding: 10px;
+}
+#nosservices{
+   margin-top: 30px;
+   background-color: var(--blancgris);
+   padding: 30px;
+}
+.backgroundbleu{
+    background-color: var(--backgroundbleu);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 0px 40px 40px;
+}
+video{
+    width: 40%;
+}
+.maintenancevideo{
+    display: flex;
+    justify-content: center;
 }
 #button2{
-    
+   background-color: var(--yellow);
+}
+#divbtn2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 #button3{
     
