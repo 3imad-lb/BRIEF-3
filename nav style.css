@@ -145,28 +145,30 @@ section h1{
     position: absolute;
     width: 243px;
     height: 28px;
+    
     left: 58px;
-    top: 795px;
+    top: 761px;
     font-family: Arial;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
     color: #0B3752;
-/*position: absolute;
+    /*position: absolute;
     width: 365px;
     height: 50px;
     left: 30px;
     top: 780px;
-
-     background: #F6F6F6;*/
+    background: #F6F6F6;*/
+    top: 761px;
 }
 #backg-title{
     position: absolute;
-    width: 260px;
+    
+    width: 265px;
     height: 50px;
     top: 761px;
-
-    background-color: var(--secondary);  
+    /* background-color: var(--secondary);   */
+    background-color: aqua;
 }
 
