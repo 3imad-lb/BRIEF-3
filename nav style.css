@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Variable */
+:root{
+    --primery : #030305 ;
+    --secondary : #F6F6F6 ;
+
+}
+/* Nav bar */
+nav{
+    width: 360px;
+    height: 178px;
+    background-color: var(--primery);
+}
+#LOGO-ASI-TECH {
+    position: absolute;
+    width: 297px;
+    height: 170px;
+    left: 31px;
+    top: 0px;
+}
+.icon{
+    position: absolute;
+    width: 360px;
+    height: 60px;
+    left: 0px;
+    top: 178px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--secondary);
+}
+
+#Linkedin{
+    font-size:30px;
+    color:#007ab9;
+}
+#Facebook{
+    font-size:30px;
+    color:#4460a0;
+}
+#Call{
+    font-size:30px;
+    color:#009691;
+
+}
+.button{
+    width: 28px;
+    height: 28px;
+}
+#button4{
+    
+    position: absolute;
+    width: 360px;
+    height: 46px;
+    left: 0px;
+    top: 238px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primery);
+}
+#photo-principal{
+    position: absolute;
+    width: 360px;
+    height: 241px;
+    left: 0px;
+    top: 284px;
+}
+h1{
+    position: absolute;
+    width: 168px;
+    height: 30px;
+    left: 74px;
+    top: 357px;
+    padding: 5px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    
+}
+#backg-h1{
+    position: absolute;
+    width: 168px;
+    height: 30px;
+    left: 66px;
+    top: 353px;
+    background: rgba(79, 194, 225, 0.2);
+}
+h2{
+    position: absolute;
+    width: 194px;
+    height: 28px;
+    left: 74px;
+    top: 408px;
+    padding: 5px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    background: rgba(79, 194, 225, 0.2);
+}
+#backg-h2{
+    position: absolute;
+    width: 190px;
+    height: 35px;
+    left: 66px;
+    top: 397px;
+    background: rgba(79, 194, 225, 0.2);
+}
+#button5{
+    position: absolute;
+    width: 185px;
+    height: 22px;
+    left: 66px;
+    top: 460px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 10px;
+    color: #000000;
+    background: rgba(79, 194, 225, 0.2);
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#maintenance{
+    position: absolute;
+    width: 365px;
+    height: 204px;
+    top: 557px;
+    /* centrer cette photo */
+}
+section h1{
+    position: absolute;
+    width: 243px;
+    height: 28px;
+    left: 58px;
+    top: 795px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0B3752;
+/*position: absolute;
+    width: 365px;
+    height: 50px;
+    left: 30px;
+    top: 780px;
+
+     background: #F6F6F6;*/
+}
+#backg-title{
+    position: absolute;
+    width: 260px;
+    height: 50px;
+    top: 761px;
+
+    background-color: var(--secondary);  
+}
+
