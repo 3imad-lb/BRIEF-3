@@ -80,7 +80,6 @@ button{
    font-weight: 900;
    font-size: 12px;
    margin-top: 15px;
-    
 }
 button:hover{
     cursor: pointer;
@@ -235,6 +234,7 @@ textarea::placeholder{
 }
 #button3{
      background-color: var(--submit);
+     border-radius: 8px;
 }
 #button3:hover{
     background-color: var(--backgroundcontacteznous);
