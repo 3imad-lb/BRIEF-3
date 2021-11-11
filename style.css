@@ -144,6 +144,39 @@ table tr th p{
 video{
     width: 40%;
 }
+.service{
+    border: solid 4px;
+    margin-top: 40px;
+    background-color: white;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 5px;
+    margin-bottom: 10px;
+    
+}
+.imgservice{
+    height: 290px;
+}
+#moreinfo{
+   display: flex;
+   justify-content: center;
+}
+details {
+    padding: 19px;
+    width: 100%;
+    background-color: var(--yellow);
+    cursor: pointer;
+    border: solid 3px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  summary{
+      display: flex;
+      justify-content: center;
+      font-weight: bold;
+      color: var(--bleumarinfont);
+  }
 .maintenancevideo{
     display: flex;
     justify-content: center;
