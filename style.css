@@ -168,8 +168,6 @@ details {
     cursor: pointer;
     border: solid 3px;
     border-radius: 8px;
-    display: flex;
-    justify-content: center;
   }
   summary{
       display: flex;
