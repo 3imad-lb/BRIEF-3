@@ -175,6 +175,17 @@ details {
       font-weight: bold;
       color: var(--bleumarinfont);
   }
+  details:hover{
+      background-color: #f7bd00;
+  }
+.imgexplication{
+    display: flex;
+    justify-content: center;
+}
+.imgexplication img{
+    width: 100%;
+    margin-top: 20px;
+}
 .maintenancevideo{
     display: flex;
     justify-content: center;
