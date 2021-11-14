@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <title>ASI-TECH installation et maintenance</title>
     <link rel="shortcut icon" href="images/logos/icon ASI-TECH.png">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
@@ -20,9 +21,19 @@
           <a class="socialfont" href=""><i style="color: var(--facebookcolor);" class="fab fa-facebook-square"></i></a>
           <a class="socialfont" href=""><i style="color: var(--callcolor);" class="fas fa-phone-square-alt"></i></a>
         </div>
+        <input type="checkbox" id="check">
         <div class="humbergermenu">
+            <label for="check" class="checkbtn">
                   <a id="humbergermenubutton"><i  class="fas fa-bars"></i></a>
+            </label>
         </div>
+        <ul id="listesection">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="aproposdenous">À PROPOS DE NOUS</a></li>
+            <li><a href="nosservices">NOS SERVICES</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="CONCESSIONNAIRES">CONCESSIONNAIRES</a></li>
+          </ul>     
     </header>
     <section id="photoprincipal">
         <div class="divprincipal">
@@ -83,26 +94,85 @@
         </div>
         <div class="service">
             <div style="display: flex;justify-content: center;">
-         <img class="imgservice" src="images/canvaasitech/chambres frodes.png" alt="chambres froides">
+         <img class="imgservice" src="images/canvaasitech/chambres frodes.png" alt="Chambres Froides">
             </div>
          <div id="moreinfo">
-         <details>
+         <details style="z-index: 4;">
             <summary> > Chambres Froides</summary>
             <div class="imgexplication">
-            <img src="images/canvaasitech/climatisation 2.png" alt="climatisation">
+            <img src="images/canvaasitech/cambres froides 2.png" alt="Chambres Froides">
             </div>
+                <ul class="ulservices">
+                    <li>INSTALLATION</li>
+                    <li>MAINENANCE</li>
+                    <li>DÉPANAGE</li>
+                    <li>CONSTRUCTION</li>
+                    <li>CONCEPTION</li>
+                </ul>
           </details>
         </div>
         </div>
-        <div>
-
+        <div class="service" style="z-index: 0;">
+            <div style="display: flex;justify-content: center;">
+         <img class="imgservice" src="images/canvaasitech/éléc graphique.png" alt="Électricité Industriel">
+            </div>
+         <div id="moreinfo">
+         <details style="z-index: 3;">
+            <summary> > Électricité Industriel</summary>
+            <div class="imgexplication">
+            <img src="images/canvaasitech/elec 2.png" alt="Électricité Industriel">
+            </div>
+            <ul class="ulservices">
+                <li>INSTALLATION</li>
+                <li>MAINENANCE</li>
+                <li>DÉPANAGE</li>
+                <li>CONSTRUCTION</li>
+                <li>CONCEPTION</li>
+            </ul>
+          </details>
         </div>
-        <div>
-
         </div>
-        <div>
-
+        <div class="service" style="z-index: 0;">
+            <div style="display: flex;justify-content: center;">
+         <img class="imgservice" src="images/canvaasitech/idustrial costruction graphique.png" alt="Construction Industriel">
+            </div>
+         <div id="moreinfo">
+         <details style="z-index: 2;">
+            <summary> > Construction Industriel</summary>
+            <div class="imgexplication">
+            <img src="images/canvaasitech/industrial construction 2.png" alt="Construction Industriel">
+            </div>
+            <ul class="ulservices">
+                <li>INSTALLATION</li>
+                <li>MAINENANCE</li>
+                <li>DÉPANAGE</li>
+                <li>CONSTRUCTION</li>
+                <li>CONCEPTION</li>
+            </ul>
+          </details>
         </div>
+        </div>
+        <div class="service" style="z-index: 0;">
+            <div style="display: flex;justify-content: center;">
+         <img class="imgservice" src="images/canvaasitech/climatisation graphique.png" alt="climatisation">
+            </div>
+         <div id="moreinfo">
+         <details style="z-index: 1;">
+            <summary> > Climatisation</summary>
+            <div class="imgexplication">
+            <img src="images/canvaasitech/climatisation 2.png" alt="climatisation">
+            </div>
+            <ul class="ulservices">
+                <li>INSTALLATION</li>
+                <li>MAINENANCE</li>
+                <li>DÉPANAGE</li>
+                <li>CONSTRUCTION</li>
+                <li>CONCEPTION</li>
+            </ul>
+          </details>
+        </div>
+        </div>
+       
     </section>
     <div id="divbtn2">
     <button id="button2">DEMANDER UN SERVICE</button>
@@ -145,17 +215,20 @@
         <footer>
             <h1 id="h1footer">Plus d'infos</h1>
             <div>
-                <main>
-                    <img src="images/canvaasitech/horaires.png" alt="">
-                    <p id="pfooter">Tél: 0700448220<br>asitech.elamrani@gmail.com</p>
+                <main id="main1">
+                    <img id="horaire" src="images/canvaasitech/horaires.png" alt="horaire du travail d'entreprise asitech">
+                    <p id="pfooter"><span style="display: flex;justify-content: center;">Tél: 0700448220</span><br>asitech.elamrani@gmail.com</p>
                 </main>
-                <main>
+                <main id="main2">
+                    <i id="bar" class="fas fa-signal-1"></i>
+                </main>
+                <main id="main3">
                     <form action="">
                         <input type="text" name="" id="saisievotrequestion" placeholder="saisie votre question ???">
                         <input id="button4" type="button" value="ENVOYER UNE QUESTION">
                     </form>
-                    <div>
-                        <a class="fontfooter" href=""><i class="fab fa-facebook-f"></i></a>
+                    <div id="fontgrid">
+                        <a style="font-size: 48px;" class="fontfooter" href=""><i class="fab fa-facebook-f"></i></a>
                         <a class="fontfooter" href=""><i class="fab fa-instagram"></i></a>
                         <a class="fontfooter" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
@@ -164,7 +237,7 @@
         </footer>
     </section>
     <footer>
-        <p>© 2022 par ASI-TECH. Créé par TECHNO-CASTLE .</p>
+        <p style="background-color:white">© 2022 par ASI-TECH. Créé par TECHNO-CASTLE .</p>
     </footer>
 
 </body>
