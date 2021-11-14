@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
-    <title>ASI-TECH installation et maintenance</title>
+    <title>ASI-TECH | installation et maintenance</title>
     <link rel="shortcut icon" href="images/logos/icon ASI-TECH.png">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+
+    <div class="scrol0"><a id="scroll" href="#"><i class="fas fa-angle-double-up"></i></a></div>
     <nav>
         <img src="images/logos/asitech_Plan de travail 1 copie 2.jpg" alt="asitech installation et maintenance">
     </nav>
@@ -29,10 +30,12 @@
         </div>
         <ul id="listesection">
             <li><a class="active" href="#">Home</a></li>
-            <li><a href="aproposdenous">À PROPOS DE NOUS</a></li>
-            <li><a href="nosservices">NOS SERVICES</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="CONCESSIONNAIRES">CONCESSIONNAIRES</a></li>
+            <li><a href="#aproposdenous">À PROPOS DE NOUS</a></li>
+            <li><a href="#nosservices">NOS SERVICES</a></li>
+            <li><a href="#CONCESSIONNAIRES">CONCESSIONNAIRES</a></li>
+            <li><a href="#formulaire">Contacter NOUS</a></li>
+            <li><a href="#plusdinfo">Plus d'infos</a></li>
+            <li><a href="#exemples">EXEMPLES DE NOS EXPÉRIENCES</a></li>
           </ul>     
     </header>
     <section id="photoprincipal">
@@ -177,8 +180,30 @@
     <div id="divbtn2">
     <button id="button2">DEMANDER UN SERVICE</button>
     </div>
-    <section>
+    <section id="exemples">
         <!--slides-->
+
+    <div class="slides">
+        <div class="slideshow-container">
+            <div class="mySlides1">
+              <img id="slideimg" src="images/canvaasitech/Brown and Pink Minimal Icons Icon Set (2).png" style="width:100%">
+            </div>
+          
+            <div class="mySlides1">
+              <img src="" style="width:100%">
+            </div>
+          
+            <div class="mySlides1">
+              <img src="img_mountains_wide.jpg" style="width:100%">
+            </div>
+          
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+          </div>
+    </div>
+
+
+
     </section>
     <section id="CONCESSIONNAIRES">
         <h1 class="backgroundbleu">CONCESSIONNAIRES</h1>
@@ -211,7 +236,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="plusdinfo">
         <footer>
             <h1 id="h1footer">Plus d'infos</h1>
             <div>
@@ -239,6 +264,32 @@
     <footer>
         <p style="background-color:white">© 2022 par ASI-TECH. Créé par TECHNO-CASTLE .</p>
     </footer>
+
+
+
+    <script>
+        var slideIndex = [1,1];
+        var slideId = ["mySlides1", "mySlides2"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+        
+        function plusSlides(n, no) {
+          showSlides(slideIndex[no] += n, no);
+        }
+        
+        function showSlides(n, no) {
+          var i;
+          var x = document.getElementsByClassName(slideId[no]);
+          if (n > x.length) {slideIndex[no] = 1}    
+          if (n < 1) {slideIndex[no] = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex[no]-1].style.display = "block";  
+        }
+        </script>
+
+
 
 </body>
 </html>
