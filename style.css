@@ -115,6 +115,7 @@ a.active{
 }
 .backgroundbleuopacity{
   background-color:var(--backgroundbleuopacity);
+  font-size: 18px;
 }
 .backgroundbleuopacity h1,p,button{
     margin-top: 10px;
@@ -407,6 +408,12 @@ footer div{
     grid-template-columns: repeat(3,1fr);
     width: 100%;
 }
+#faceboockfont{
+    font-size: 48px;
+ }
+ .fontfooter:hover{
+    color: var(--bleu);
+ }
 
                                                     
 
@@ -484,6 +491,9 @@ footer div{
 
 
 
+span{
+    display: none;
+}
 
 
 
@@ -506,5 +516,203 @@ footer div{
 
 @media  screen and (min-width: 600px) {
     
+    body{
+        margin: 2%;
+        border: solid 5px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 60px 15px;
+    }
+    .navdescktop{
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+    nav{
+        display: flex;
+        justify-content: flex-start;
+    }
+    nav img{
+        width: 40%;
+        height: auto;
+    }
+    .scrol0{
+        top:82%;
+    }
+    .bergerdescktop{
+        display: flex;
+        justify-content: center;
+    }
+    .humbergermenu{
+        width: 64%;
+        border-radius: 5px;
+        justify-content: flex-start;
+        padding-left: 10px;
+    }
+    header img{
+        width: 100%;
+    }
+    span{
+        padding-left: 30px;
+        font-weight: bold;
+        display:inline;
+    }
+    #photoprincipal{
+        background-size:cover;
+        width: 100%;
+        height: 600px; 
+    }
+    #h11{
+        font-size: 40px;
+    }
+    .divprincipal{
+        padding: 15%;
+        padding-bottom: 10px;
+    }
+    .backgroundbleuopacity{
+        font-size: 20px;
+      }
+      .backgroundbleuopacity h1,p,button{
+        margin-top: 20px;
+    }
+    #button1{
+        font-weight: 1000;
+        font-size: 20px;
+        margin-top: 25px;
+        border: solid 5px;
+     }
+     #aproposdenous{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    #papropos{
+        font-size: 24px;
+    }
+    .backgroundbleu{
+        font-size: 50px;
+    }
+    video{
+        width: 20%;
+    }
+    .gridservice{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 5%;
+    }
+    .colomnservices{
+        margin: 0% 20%;
+    }
+    #button2{
+        font-weight: 1000;
+        font-size: 20px;
+        margin-top: 25px;
+        border: solid 5px;
+    }
+    #exemples{
+        padding: 10%;
+        margin: 20%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    #CONCESSIONNAIRES div{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+    }
+    .t{
+        padding-left: 175px;
+        margin-top:50px;
+    }
+    .gridform1{
+       display: grid;
+       grid-template-columns: 48% 46%;
+       gap: 20px;
+    }
+    .gridform2{
+        display: grid;
+        grid-template-columns: 58% 36%;
+        gap: 20px;
+    }
+    #formulaire{
+        margin: 30px;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    #main2{
+       margin-top: 550%;
+    }
+    #saisievotrequestion{
+        border: solid 7px;
+        border-color: var(--placeholder);
+        width: 95%;                                                                                     
+        margin-top: 100px;
+        height: 50px;
+    }
+    #button4{
+       background-color: var(--yellow);
+       border: solid 4px;
+       border-color: var(--placeholder);
+       border-radius: 20px;
+       font-weight: bold;
+       margin-top: 20px;
+       height: 40px;
+       padding-top: 10px;
+       padding-bottom: 30px;
+       font-size: 20px;
+       width: 98%;
+    }
+    .fontfooter{
+       padding-top: 70%;
+       color: white;
+       font-size: 500%;
+    }
+    #faceboockfont{
+       font-size: 70px;
+    }
+    #pfooter{
+        color: white;
+        line-height: 80%;
+        font-size: 150%;
+        padding-top: 10%;
+        font-weight: bold;
+    }
+    #ppfoteer{
+        display: flex;
+        justify-content: center;
+    }
     
+
+    #listesection{
+        position:absolute;
+        width: 100%;
+        height: 35vh;
+        background: var(--bleu);
+        top: 220px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 6;
+        float: right;
+    }
+    #listesection li a{
+        text-decoration: none;
+        box-sizing: border-box;
+        color: white;
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+    a.active{
+        transition: .5s;
+    }
+    #listesection li{
+        list-style: none;
+        display: contents;
+        margin: 20px 0;
+        line-height: 13px;
+    }
+    #listesection a:hover{
+        background-color: var(--bleumarinfont);
+        transition: .5s;
+        font-weight: bold;
+    }
 }

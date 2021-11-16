@@ -13,9 +13,13 @@
 <body>
 
     <div class="scrol0"><a id="scroll" href="#"><i class="fas fa-angle-double-up"></i></a></div>
+   <div class="navdescktop">
+       <div>
     <nav>
         <img src="images/logos/asitech_Plan de travail 1 copie 2.jpg" alt="asitech installation et maintenance">
     </nav>
+        </div>
+        <div>
     <header>
         <div class="divsocialfont">
           <a class="socialfont" href=""><i style="color: var(--linkedincolor);" class="fab fa-linkedin"></i></a>
@@ -23,10 +27,12 @@
           <a class="socialfont" href=""><i style="color: var(--callcolor);" class="fas fa-phone-square-alt"></i></a>
         </div>
         <input type="checkbox" id="check">
+        <div class="bergerdescktop">
         <div class="humbergermenu">
             <label for="check" class="checkbtn">
-                  <a id="humbergermenubutton"><i  class="fas fa-bars"></i></a>
+                  <a id="humbergermenubutton"><i  class="fas fa-bars"></i><span>MENU</span></a>
             </label>
+        </div>
         </div>
         <ul id="listesection">
             <li><a class="active" href="#">Home</a></li>
@@ -36,11 +42,13 @@
             <li><a href="#formulaire">Contacter NOUS</a></li>
             <li><a href="#plusdinfo">Plus d'infos</a></li>
             <li><a href="#exemples">EXEMPLES DE NOS EXPÉRIENCES</a></li>
-          </ul>     
+          </ul>    
     </header>
+    </div>
+   </div>
     <section id="photoprincipal">
         <div class="divprincipal">
-        <h1 style="font-size: 18px;" class="backgroundbleuopacity">ASI-TECH ENTREPRISE D’installation et maintenance</h1>
+        <h1 style="font-weight: bold;" id="h11" class="backgroundbleuopacity">ASI-TECH ENTREPRISE D’installation et maintenance</h1>
         <p style="font-style: italic;" class="backgroundbleuopacity">Vous appuyez sur l'installation et la maintenance, nous faisons le reste.</p>
         <button id="button1">DEMANDER UN SERVICE</button>
         </div>
@@ -64,7 +72,7 @@
         <table class="table">
             <tr>
                 <th>
-                    <p>ASI-TECH a été crée en 5 septembre 
+                    <p id="papropos">ASI-TECH a été crée en 5 septembre 
                         2021 avec l’envie d'enrichire le domaine 
                         d'industrie par divers services qui 
                         concerne les chambres froides, 
@@ -95,6 +103,8 @@
                 <source src="images/canvaasitech/maintenance Video.mp4" type="video/mp4">
               </video>
         </div>
+        <div class="gridservice">
+            <div class="colomnservices">
         <div class="service">
             <div style="display: flex;justify-content: center;">
          <img class="imgservice" src="images/canvaasitech/chambres frodes.png" alt="Chambres Froides">
@@ -115,6 +125,8 @@
           </details>
         </div>
         </div>
+            </div>
+            <div class="colomnservices">
         <div class="service" style="z-index: 0;">
             <div style="display: flex;justify-content: center;">
          <img class="imgservice" src="images/canvaasitech/éléc graphique.png" alt="Électricité Industriel">
@@ -135,6 +147,8 @@
           </details>
         </div>
         </div>
+            </div>
+            <div class="colomnservices">
         <div class="service" style="z-index: 0;">
             <div style="display: flex;justify-content: center;">
          <img class="imgservice" src="images/canvaasitech/idustrial costruction graphique.png" alt="Construction Industriel">
@@ -155,6 +169,8 @@
           </details>
         </div>
         </div>
+            </div>
+            <div class="colomnservices">
         <div class="service" style="z-index: 0;">
             <div style="display: flex;justify-content: center;">
          <img class="imgservice" src="images/canvaasitech/climatisation graphique.png" alt="climatisation">
@@ -175,6 +191,8 @@
           </details>
         </div>
         </div>
+            </div>
+        </div>
        
     </section>
     <div id="divbtn2">
@@ -190,11 +208,11 @@
             </div>
           
             <div class="mySlides1">
-              <img src="" style="width:100%">
+              <img src="images/canvaasitech/Pastel 5 Photos Montage Fiertés Instagram Story.png" style="width:100%">
             </div>
           
             <div class="mySlides1">
-              <img src="img_mountains_wide.jpg" style="width:100%">
+              <img src="images/canvaasitech/Pastel 5 Photos Montage Fiertés Instagram Story (1).png" style="width:100%">
             </div>
           
             <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
@@ -207,9 +225,9 @@
     </section>
     <section id="CONCESSIONNAIRES">
         <h1 class="backgroundbleu">CONCESSIONNAIRES</h1>
-    <div>
+    <div class="t">
         <div class="CONCESSIONNAIRES">
-            <div class="logo"> 
+            <div class="logo" id="reydelfrio"> 
                 <img src="images/logos/logo rey del frio.png" alt="logo el rey d el frio">
             </div>
             <div class="logo">
@@ -223,12 +241,20 @@
         <div>
             <h1 id="backgroundcontacteznous">! CONTACTEZ NOUS !</h1>
             <form action="">
+                <div class="gridform1">
             <input type="text" name="" id="" placeholder="Nom">
             <input type="text" name="" id="" placeholder="Prénom">
+                </div>
+                <div class="gridform2">
+                    <div>
             <label for="email"><p>*champ obligatoire</p></label>
             <input id="nonemargin" type="email" name="" id="" placeholder="Email">
+                    </div>
+                    <div>
             <label for="number"><p>*champ obligatoire</p></label>
             <input id="nonemargin" type="number" name="" id="" placeholder="Numéro de téléphone">
+                    </div>
+                </div>
             <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
             </form>
             <div class="centerbutton">
@@ -242,7 +268,7 @@
             <div>
                 <main id="main1">
                     <img id="horaire" src="images/canvaasitech/horaires.png" alt="horaire du travail d'entreprise asitech">
-                    <p id="pfooter"><span style="display: flex;justify-content: center;">Tél: 0700448220</span><br>asitech.elamrani@gmail.com</p>
+                    <p id="pfooter"><span style="display: flex;justify-content: center;">Tél: 0700448220</span><br><span id="ppfoteer">asitech.elamrani@gmail.com</span></p>
                 </main>
                 <main id="main2">
                     <i id="bar" class="fas fa-signal-1"></i>
@@ -253,7 +279,7 @@
                         <input id="button4" type="button" value="ENVOYER UNE QUESTION">
                     </form>
                     <div id="fontgrid">
-                        <a style="font-size: 48px;" class="fontfooter" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="fontfooter" id="faceboockfont" href=""><i class="fab fa-facebook-f"></i></a>
                         <a class="fontfooter" href=""><i class="fab fa-instagram"></i></a>
                         <a class="fontfooter" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
