@@ -494,6 +494,12 @@ footer div{
 span{
     display: none;
 }
+.pheader{
+    display: none;
+}
+#ppfoteer{
+    display: block;
+}
 
 
 
@@ -683,7 +689,7 @@ span{
     #listesection{
         position:absolute;
         width: 100%;
-        height: 35vh;
+        height: 10vh;
         background: var(--bleu);
         top: 220px;
         left: -100%;
@@ -691,6 +697,7 @@ span{
         transition: all .5s;
         z-index: 6;
         float: right;
+        padding-top: 2%;
     }
     #listesection li a{
         text-decoration: none;
@@ -714,5 +721,14 @@ span{
         background-color: var(--bleumarinfont);
         transition: .5s;
         font-weight: bold;
+    }
+    #spanmenu{
+        display: none;
+    }
+    .pheader{
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        padding-top: 40px;
     }
 }
